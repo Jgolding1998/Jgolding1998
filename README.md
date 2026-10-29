@@ -20,6 +20,3 @@ Start with a project's quick start, run its tests, and read its architecture not
 
 Tests cover simulated failures and boundary cases. Camera accuracy, workstation locking, physical sensors, and real notification delivery require the manual checks described in the relevant project. Test results do not imply certification or production deployment.
 
-Implementation and review used Codex and Claude. The repositories include executable checks and documented limitations so reviewers can evaluate the results directly.
-
-[Research and design references](RESEARCH.md)
