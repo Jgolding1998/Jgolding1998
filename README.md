@@ -9,10 +9,10 @@ I build small tools for document workflows, local automation and sensor monitori
 | [Thermal Watch](https://github.com/Jgolding1998/thermal-watch) | Monitor simulated or CSV temperature readings | Sensor freshness, hysteresis, event history and optional webhook delivery |
 | [Repo Preflight](https://github.com/Jgolding1998/repo-preflight) | Check files and reachable Git history before publishing | Redacted findings, narrow exceptions and CLI exit contracts |
 | [Site Contract API](https://github.com/Jgolding1998/site-contract-api) | Extract static HTML into a JSON endpoint using explicit rules | Required fields, drift detection and restricted remote sources |
-| [Surface Map](https://github.com/Jgolding1998/surface-map) | Inspect saved HTML, HAR and JavaScript captures | Evidence labels, value-free schemas and capture comparison |
+| [Surface Map](https://github.com/Jgolding1998/surface-map) | Inspect saved web captures and selected source files without running them | Syntax and scope analysis, evidence labels and value-free API skeletons |
 | [Presence Guard](https://github.com/Jgolding1998/presence-guard) | A standalone camera guard with optional Windows lock and synthetic Boss Alert | Local processing, timed policies and explicit action permissions |
-| [Swarm Evolution](https://github.com/Jgolding1998/swarm-evolution) | A space shooter whose enemies inherit successful traits between waves | Seeded simulation, constrained evolution and visible fitness |
-| [Barricade Defense](https://github.com/Jgolding1998/barricade-defense) | Balance towers, route-shaping barricades, upgrades and repairs | Shared resources, path invariants and tested strategy bots |
+| [Swarm Evolution](https://github.com/Jgolding1998/swarm-evolution) | A space shooter with inherited enemy traits, campaigns and endless play | Seeded simulation, constrained evolution and visible fitness |
+| [Barricade Defense](https://github.com/Jgolding1998/barricade-defense) | Build and upgrade a defense in campaigns or endless survival | Shared resources, path invariants and tested strategy bots |
 | [YouTube File Kit](https://github.com/Jgolding1998/youtube-file-kit) | Download an accessible public YouTube video from its URL | Restricted extraction, bounded jobs and clear failure states |
 | [MP4 Audio Kit](https://github.com/Jgolding1998/mp4-audio-kit) | Drop MP4 files and download MP3 audio, with ZIP batches | Isolated conversion, filename handling and automatic cleanup |
 
@@ -27,5 +27,5 @@ I build small tools for document workflows, local automation and sensor monitori
 
 ## Security
 
-For suspected vulnerabilities, follow the affected project's security policy instead of opening public feedback: [Jarvis](https://github.com/Jgolding1998/jarvis-workbench/blob/main/SECURITY.md), [PDF Renamer](https://github.com/Jgolding1998/pdf-renamer-local/blob/main/SECURITY.md), [Thermal Watch](https://github.com/Jgolding1998/thermal-watch/blob/main/SECURITY.md), [Repo Preflight](https://github.com/Jgolding1998/repo-preflight/blob/main/SECURITY.md), [Site Contract API](https://github.com/Jgolding1998/site-contract-api/blob/main/SECURITY.md), [Surface Map](https://github.com/Jgolding1998/surface-map/blob/main/SECURITY.md).
+For suspected vulnerabilities, use the affected project's private reporting option. [Security policies and reporting links for every project](https://github.com/Jgolding1998/Jgolding1998/blob/main/SECURITY.md) are listed separately from public feedback.
 
