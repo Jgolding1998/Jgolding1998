@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security reporting
+    url: https://github.com/Jgolding1998/Jgolding1998#security
+    about: Read the affected project's security policy. Do not post vulnerability details in public feedback.

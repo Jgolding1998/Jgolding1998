@@ -1,0 +1,51 @@
+name: Project feedback
+description: Share a suggestion, something you like or dislike, or a problem.
+title: "[Feedback] "
+labels: [feedback]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a public GitHub issue. Your GitHub account and submission will be visible.
+        Do not include API keys, names, email addresses, private documents or unredacted logs.
+        For suspected vulnerabilities, follow the affected project's SECURITY.md instead of posting here.
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: Choose the project this feedback concerns.
+      options:
+        - jarvis-workbench
+        - pdf-renamer-local
+        - thermal-watch
+        - repo-preflight
+        - site-contract-api
+        - surface-map
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Feedback kind
+      options:
+        - suggestion
+        - like
+        - dislike
+        - problem
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Keep it brief. For a problem, include the steps and what happened using synthetic examples.
+      placeholder: What worked, what was confusing, or how can the problem be reproduced?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: Optional. What would you prefer to happen?
+    validations:
+      required: false
