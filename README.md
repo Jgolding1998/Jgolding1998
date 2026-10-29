@@ -4,10 +4,12 @@ Small systems that solve a concrete problem and make their behavior easy to insp
 
 | Project | Try it | Engineering focus |
 | --- | --- | --- |
-| [Jarvis Workbench](https://github.com/Jgolding1998/jarvis-workbench) | A local assistant dashboard with a simulated camera feed | Deterministic presence state machine, offline voice adapter, Windows action permissions, fault handling |
+| [Jarvis Workbench](https://github.com/Jgolding1998/jarvis-workbench) | [Guided setup and gesture practice](https://jarvis-workbench.jrgoldin.chatgpt.site) | Local hand tracking, camera ownership, presence state machine, permission boundaries |
 | [PDF Renamer Local](https://github.com/Jgolding1998/pdf-renamer-local) | Preview invoice filenames, then download a ZIP | Untrusted input, bounded parsing, safe filenames, collision handling, local document processing |
 | [Thermal Watch](https://github.com/Jgolding1998/thermal-watch) | Watch a freezer and cooker drift outside their ranges | Sensor freshness, hysteresis, persistence, alert delivery, SQLite history |
 | [Repo Preflight](https://github.com/Jgolding1998/repo-preflight) | Scan a working tree and reachable Git history | Redacted reporting, regression fixtures, exact exceptions, CLI exit contracts |
+| [Site Contract API](https://github.com/Jgolding1998/site-contract-api) | Turn static HTML into a typed JSON endpoint | Explicit extraction contracts, drift detection, bounded parsing, restricted HTTPS sources |
+| [Surface Map](https://github.com/Jgolding1998/surface-map) | Inspect saved HTML, HAR and JavaScript captures | Evidence labels, value-free schemas, API skeletons, capture comparison |
 
 Run the checks yourself: [Jarvis CI](https://github.com/Jgolding1998/jarvis-workbench/actions), [PDF CI](https://github.com/Jgolding1998/pdf-renamer-local/actions), [temperature CI](https://github.com/Jgolding1998/thermal-watch/actions), [preflight CI](https://github.com/Jgolding1998/repo-preflight/actions).
 
