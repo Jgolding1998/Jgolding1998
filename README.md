@@ -10,6 +10,11 @@ I build small tools for document workflows, local automation and sensor monitori
 | [Repo Preflight](https://github.com/Jgolding1998/repo-preflight) | Check files and reachable Git history before publishing | Redacted findings, narrow exceptions and CLI exit contracts |
 | [Site Contract API](https://github.com/Jgolding1998/site-contract-api) | Extract static HTML into a JSON endpoint using explicit rules | Required fields, drift detection and restricted remote sources |
 | [Surface Map](https://github.com/Jgolding1998/surface-map) | Inspect saved HTML, HAR and JavaScript captures | Evidence labels, value-free schemas and capture comparison |
+| [Presence Guard](https://github.com/Jgolding1998/presence-guard) | A standalone camera guard with optional Windows lock and synthetic Boss Alert | Local processing, timed policies and explicit action permissions |
+| [Swarm Evolution](https://github.com/Jgolding1998/swarm-evolution) | A space shooter whose enemies inherit successful traits between waves | Seeded simulation, constrained evolution and visible fitness |
+| [Barricade Defense](https://github.com/Jgolding1998/barricade-defense) | Balance towers, route-shaping barricades, upgrades and repairs | Shared resources, path invariants and tested strategy bots |
+| [YouTube File Kit](https://github.com/Jgolding1998/youtube-file-kit) | Download an accessible public YouTube video from its URL | Restricted extraction, bounded jobs and clear failure states |
+| [MP4 Audio Kit](https://github.com/Jgolding1998/mp4-audio-kit) | Drop MP4 files and download MP3 audio, with ZIP batches | Isolated conversion, filename handling and automatic cleanup |
 
 [Try the Jarvis setup planner](https://jarvis-workbench.jrgoldin.chatgpt.site). You can plan on a phone, then continue on a computer for desktop features. Each repository includes setup commands, tests and practical limits. Hardware and external integrations need the operator's own configuration and manual checks.
 
