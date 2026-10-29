@@ -21,6 +21,11 @@ body:
         - repo-preflight
         - site-contract-api
         - surface-map
+        - presence-guard
+        - swarm-evolution
+        - barricade-defense
+        - youtube-file-kit
+        - mp4-audio-kit
     validations:
       required: true
   - type: dropdown
