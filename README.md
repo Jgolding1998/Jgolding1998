@@ -2,9 +2,20 @@
 
 I build small tools for document workflows, local automation and sensor monitoring. I focus on predictable behavior, clear failure messages and tests that run with synthetic data.
 
+Start with these three projects:
+
+- **[UndoWeave](https://github.com/Jgolding1998/undoweave):** undo one recorded agent edit while keeping separate later work. Its hardest problem is deciding when an undo is ambiguous enough to refuse. The [merge contract](https://github.com/Jgolding1998/undoweave/blob/main/docs/CONTRACT.md) explains that choice, including a real repeated-line bug found and fixed after the initial release. Try the disposable demo with no API key.
+- **[Surface Map](https://github.com/Jgolding1998/surface-map):** turn website evidence into routes, a reviewable agent brief, or a PR change report. Its [comparison with REA](https://github.com/Jgolding1998/surface-map/blob/main/docs/REA_COMPARISON.md) shows both useful results and what a bounded static inventory misses.
+- **[Jarvis Workbench](https://github.com/Jgolding1998/jarvis-workbench):** practice a local workstation companion before enabling devices. The [architecture](https://github.com/Jgolding1998/jarvis-workbench/blob/main/docs/ARCHITECTURE.md) separates observations, policy decisions and physical actions so an attractive dashboard cannot silently grant permissions.
+
+I use Claude Code and Codex in development. The repositories document concrete
+choices, reproducible checks and remaining limits so the work can be evaluated
+from the code and behavior.
+
 | Project | What it does | Engineering focus |
 | --- | --- | --- |
-| [Jarvis Workbench](https://github.com/Jgolding1998/jarvis-workbench) | A local dashboard with optional voice, hand tracking and presence actions | Device ownership, permission boundaries and state transitions |
+| [UndoWeave](https://github.com/Jgolding1998/undoweave) | Selective undo for recorded coding-agent edits, with a readable timeline | Conservative conflict refusal, durable recovery and preservation of Git state |
+| [Jarvis Workbench](https://github.com/Jgolding1998/jarvis-workbench) | A local presence and hand-control dashboard, guided setup and optional text chat | Device ownership, permission boundaries and state transitions |
 | [PDF Renamer Local](https://github.com/Jgolding1998/pdf-renamer-local) | Preview invoice filenames and download the renamed PDFs as a ZIP | Bounded parser processes, safe filenames and preview consistency |
 | [Thermal Watch](https://github.com/Jgolding1998/thermal-watch) | Monitor simulated or CSV temperature readings | Sensor freshness, hysteresis, event history and optional webhook delivery |
 | [Repo Preflight](https://github.com/Jgolding1998/repo-preflight) | Check files and reachable Git history before publishing | Redacted findings, narrow exceptions and CLI exit contracts |

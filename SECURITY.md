@@ -4,6 +4,7 @@ Please send sensitive details through the affected repository's private vulnerab
 
 | Project | Security policy | Private report |
 | --- | --- | --- |
+| UndoWeave | [Policy](https://github.com/Jgolding1998/undoweave/blob/main/SECURITY.md) | [Report](https://github.com/Jgolding1998/undoweave/security/advisories/new) |
 | Jarvis Workbench | [Policy](https://github.com/Jgolding1998/jarvis-workbench/blob/main/SECURITY.md) | [Report](https://github.com/Jgolding1998/jarvis-workbench/security/advisories/new) |
 | PDF Renamer Local | [Policy](https://github.com/Jgolding1998/pdf-renamer-local/blob/main/SECURITY.md) | [Report](https://github.com/Jgolding1998/pdf-renamer-local/security/advisories/new) |
 | Thermal Watch | [Policy](https://github.com/Jgolding1998/thermal-watch/blob/main/SECURITY.md) | [Report](https://github.com/Jgolding1998/thermal-watch/security/advisories/new) |
